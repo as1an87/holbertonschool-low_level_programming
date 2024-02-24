@@ -11,12 +11,12 @@ int main(void)
 
 	for (number = 0; number < 10; number++)
 
-		putchar(number);
+		putchar((number%10) + '0');
 
-	for (letter = 'a'; letter <='z'; letter++)
+	for (letter = 'a'; letter <='f'; letter++)
 
 		putchar(letter);
 
-	printf("\n");
+	putchar('\n');
 	return (0);
 }
