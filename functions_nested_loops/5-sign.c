@@ -1,18 +1,21 @@
 #include "main.h"
 /**
- * _isalpha - Checks if a character is lowercase or uppercase
- * @c: character to check
- * Return: 1 if character is lowercase, 0 otherwise.
+ * print_sign - Prints the sign of a number.
+ * @n: The number of which the sign will be printed.
+ *
+ * Return: 1 if the number is greater than zero,
+ *         0 if the number is zero,
+ *         -1 if the number is less than zero.
  */
 int print_sign(int n);
 {
 	if (n > 0)
 		return (1);
-		printf('+');
+		_putchar('+');
 	else if (n == 0)
-		return (0)
-		printf('0');
+		return (0);
+		_putchar('0');
 	else
 		return (-1);
-		printf('-'i);
+		_putchar('-');
 }
