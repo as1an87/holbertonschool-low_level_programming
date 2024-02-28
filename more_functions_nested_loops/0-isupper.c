@@ -8,7 +8,7 @@
 int main(void)
 {
     char c;
-	if ('a' <= c && 'z' >= c )
+	if ( isupper(c) )
 	{
 		return (0);
 
