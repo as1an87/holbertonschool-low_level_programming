@@ -8,6 +8,6 @@ void print_line(int n)
 	int i;
 
 	while (i < n)
-		_putchar ("_");
+		_putchar (95);
 	_putchar ('\n');
 }
