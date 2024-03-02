@@ -8,12 +8,14 @@ void more_numbers(void)
 	char i;
 	char j;
 
-	for (i = '0'; i <= '10'; i++)
+	while (i <= '10')
 	{
-		for (j = '0'; j <= '14'; j++)
+		while  (j <= '14')
 		{
 			_putchar (j);
+			j++;
 		}
 		_putchar('\n');
+		i++;
 	}
 }
