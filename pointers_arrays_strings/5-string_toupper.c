@@ -12,7 +12,7 @@ char *string_toupper(char *hi)
 	int ind = 0;
 	int d = 'a' - 'A';
 
-	for (ind = 0; hi[i] != '\0'; ++ind)
+	for (ind = 0; hi[ind] != '\0'; ++ind)
 	{
 		if (hi[ind] >= 'a' && hi[ind] <= 'z')
 		{
