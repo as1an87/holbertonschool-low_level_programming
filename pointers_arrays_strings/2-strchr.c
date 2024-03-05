@@ -6,6 +6,7 @@
  * character c in the string s, or NULL if the character is not found
  * @s: stirng
  * @c: character
+ * Return: null
  */
 char *_strchr(char *s, char c)
 {
