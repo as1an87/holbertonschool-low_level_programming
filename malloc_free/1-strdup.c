@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdlib.c>
+#include <stdlib.h>
 /**
  * _strdup - strdup
  * @str: string
