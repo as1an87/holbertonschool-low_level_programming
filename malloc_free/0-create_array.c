@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdib.h>
+#include <stdlib.h>
 
 char *create_array(unsigned int size, char c)
 {
