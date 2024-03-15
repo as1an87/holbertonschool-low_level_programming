@@ -3,7 +3,8 @@
 #include <stdlib.h>
 #include <limits.h>
 
-/** *malloc_checked - function
+/**
+ * *malloc_checked - function
  * @b: int
  * Return: pointer
  */
