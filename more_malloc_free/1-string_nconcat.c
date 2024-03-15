@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+#include <stdlib.h>
 /**
 *string_nconcat - Concatenates two strings using at
 *most an inputted number of bytes.
@@ -31,12 +32,12 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	len = 0;
 
 	for (i = 0; s1[i]; i++)
-		concar[len++] = s1[i];
+		concat[len++] = s1[i];
 
 	for (i = 0; s2[i] && i < n; i++)
 		concat[len++] = s2[i];
 
-	concat[len] = '\0'
+	concat[len] = '\0';
 
 	return (concat);
 }
