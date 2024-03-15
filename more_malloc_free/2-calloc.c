@@ -15,10 +15,10 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 
 	if (nmemb == 0 || size == 0)
 		return (NULL);
-	b = malloc(nemb * size);
+	b = malloc(nmemb * size);
 	if (block != NULL)
 	{
-		for (i = 0; i < (nemb * size); i++)
+		for (i = 0; i < (nmemb * size); i++)
 			b[i] = 0;
 		return (b);
 	}
