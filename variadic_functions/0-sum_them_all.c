@@ -16,6 +16,6 @@ int sum_them_all(const unsigned int n, ...)
 	va_start(ar, n);
 	for (c = 0; c < n; c++)
 		sum += va_arg(ar, int);
-	va_end;
+	va_end(ar);
 	return (sum);
 }
