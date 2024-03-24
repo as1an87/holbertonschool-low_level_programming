@@ -5,7 +5,7 @@
  * main - main function
  * @argc: argc
  * @argv: argv
- * Return: result 
+ * Return: result
  */
 int main(int argc, char *argv[])
 {
